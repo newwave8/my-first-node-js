@@ -12,7 +12,7 @@ process.argvは Node.jsがデフォルトで提供してくれる、コマンド
 
 条件付き論理和は、先に左側に書かれた値を見て Truthy であれば、その値を結果として使う。
 そして左側の値が Falsy であれば、その右側の値を結果として使う、という特性がある。
-その特性を利用して、選択的な代入を行っているのです。
+その特性を利用して、選択的な代入を行っている。
 */
 let sum = 0;
 for (let i = 1; i <= number; i++) {
@@ -21,11 +21,6 @@ for (let i = 1; i <= number; i++) {
 console.log(sum);
 
 /*
-…or push an existing repository from the command line
-
-git remote add origin git@github.com:newwave8/my-first-node-js.git
-git push -u origin master
-
 <ファイルをまとめて指定する場合>
 ワーキング・ツリーにあるファイルをまとめてコマンドを実行することもできる。
 ワーキング・ツリーでオプションに「.」を指定して、
